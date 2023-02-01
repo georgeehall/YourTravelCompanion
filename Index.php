@@ -46,7 +46,7 @@
 <!-- socials top right end -->
 <!-- centred logo start -->
       <ul class="nav justify-content-center" style="padding-top: 0px;">
-      <a href ="index.php">  <img src="images/SMB3.png" alt="logo" style="height:150px;"></a>
+      <a href ="index.php">  <img src="images/logo.png" class="img-fluid" alt="..."></a>
       </ul>
 <!-- centred logo end -->
 <!-- Navbar start -->
