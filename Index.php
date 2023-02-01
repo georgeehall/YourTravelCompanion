@@ -15,7 +15,7 @@
          <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
       <style>
          body {
-          background-color: #f7f7f7; 
+          background-color: white; 
          }
          .dropdown:hover .dropdown-menu{
          display: block;
@@ -125,7 +125,7 @@ testing
 
 <!-- logo start -->
       <ul class="nav" >
-      <a href ="index.php">  <img src="images/SMB3.png" alt="logo" style="height:75px;"> </a>
+      <a href ="index.php">  <img src="images/footerlogo.png" alt="logo" style="height:75px;"> </a>
       </ul>
 <!-- logo end -->
 <a href ="https://www.w3schools.com">   <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i> </a>
