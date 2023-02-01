@@ -53,13 +53,13 @@
 
 <img id="ResterauntImage"class="img-fluid" alt="Responsive image" src="images/logo2.png" />
 
-      <ul class="nav justify-content-center" style="padding-top: 0px;">
-      <a href ="index.php">  <img src="images/logo2.png" class="img-fluid" alt="..."></a>
+      <ul class="nav justify-content-center">
+     
       </ul>
 <!-- centred logo end -->
 <!-- Navbar start -->
       <ul class="nav justify-content-center" style="padding-top: 15px; ">
-         <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" style="padding-top: 26%;">
             <div class="container-fluid">
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -110,7 +110,7 @@
 <!-- navbar end -->
 <!-- Constainer Start --><div class="container">
 
-
+testing
 
 <!-- Footer Start -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
