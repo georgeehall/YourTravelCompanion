@@ -23,7 +23,12 @@
          .dropdown-menu{
          margin-top: 0;
          }
-
+         #ResterauntImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
       </style>
       <script>
          $(document).ready(function(){
@@ -38,15 +43,18 @@
    </head>
    <body>
 <!-- socials top right start -->
-      <div class="d-flex justify-content-end" style="padding-top:10px;">
-      <a href ="https://www.w3schools.com">  <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i></a>
-      <a href ="https://www.w3schools.com">  <i class="fa-brands fa-twitter fa-2xl" style="padding-right: 5px;"></i></a>
-      <a href ="https://www.w3schools.com">   <i class="fa-brands fa-instagram fa-2xl" style="padding-right: 15px;"></i></a>
+      <div class="d-flex justify-content-end" style="padding-top:10px;z-index: 1;position: relative;">
+      <a href ="https://www.w3schools.com">  <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px; color: #d7c177;"></i></a>
+      <a href ="https://www.w3schools.com">  <i class="fa-brands fa-twitter fa-2xl" style="padding-right: 5px; color: #d7c177;"></i></a>
+      <a href ="https://www.w3schools.com">   <i class="fa-brands fa-instagram fa-2xl" style="padding-right: 15px; color: #d7c177;"></i></a>
       </div>
 <!-- socials top right end -->
 <!-- centred logo start -->
+
+<img id="ResterauntImage"class="img-fluid" alt="Responsive image" src="images/logo2.png" />
+
       <ul class="nav justify-content-center" style="padding-top: 0px;">
-      <a href ="index.php">  <img src="images/logo.png" class="img-fluid" alt="..."></a>
+      <a href ="index.php">  <img src="images/logo2.png" class="img-fluid" alt="..."></a>
       </ul>
 <!-- centred logo end -->
 <!-- Navbar start -->
@@ -59,16 +67,16 @@
                <div class="collapse navbar-collapse" id="navbarContent">
                   <ul class="navbar-nav" style="border-top: 1px solid black; border-bottom: 1px solid black;">
                      <li class="nav-item">
-                        <a class="nav-link" href="sellabooking.php" style="padding-right: 100px;">I Need Inspiration</a>
+                        <a class="nav-link" href="sellabooking.php" style="padding-right: 100px;">Just Exploring</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="alllistings.php" style="padding-right: 100px;">I want to book</a>
+                        <a class="nav-link" href="alllistings.php" style="padding-right: 100px;">Need Inspiration</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="lastmin.php" style="padding-right: 100px;">I have a booking</a>
+                        <a class="nav-link" href="lastmin.php" style="padding-right: 100px;">Make a Booking</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="pricing.php" style="padding-right: 100px;">I Need Help Abroad</a>
+                        <a class="nav-link" href="pricing.php" style="padding-right: 100px;">Already booked</a>
                      </li>
 
                      <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
@@ -101,7 +109,7 @@
       </ul>
 <!-- navbar end -->
 <!-- Constainer Start --><div class="container">
-test
+
 
 
 <!-- Footer Start -->
