@@ -26,13 +26,6 @@
     .dropdown-menu {
         margin-top: 0;
     }
-
-    #ResterauntImage {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-    }
     /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
@@ -97,17 +90,11 @@
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
                 style="padding-right: 15px; color: #325c8c;"></i></a>
     </div> <!-- socials top right end -->
-    <!-- centred logo start -->
-    <div class="d-flex justify-content-center">
-    <ul class="nav">
-                <a href="index.php"> <img src="images/logo2.png" alt="logo" style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
-    </ul>
-    </div>
-    </ul><!-- centred logo end -->
+
     <!-- Navbar start -->
     <ul class="nav justify-content-center" style="postion: relative; z-index: 1;">
     
-        <nav class="navbar navbar-expand-lg" style="padding-top: 10%;">
+        <nav class="navbar navbar-expand-lg" style="padding-top:;">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,7 +105,7 @@
                     <ul class="navbar-nav" style="border-top: 1px solid black; border-bottom: 1px solid black;">
                         <li class="nav-item">
                             <a class="nav-link" href="alllistings.php"
-                                style="padding-right: 100px;color: #d9c57a;background: #325c8c;">
+                                style="padding-right: 100px;">
                                 Be Inspired
                             </a>
                         </li>
@@ -164,9 +151,16 @@
         </nav>
     </ul><!-- navbar end -->
     
+        <!-- centred logo start -->
+        <div class="d-flex justify-content-center" style="padding-top:15%;">
+    <ul class="nav">
+                <a href="index.php"> <img src="images/logo2.png" alt="logo" style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
+    </ul>
+    </div>
+    </ul><!-- centred logo end -->
     <div class="container"><!-- Constainer Start -->
 
-        <div class="row"><!-- Row Start -->
+        <div class="row" style="padding-top:25px;"><!-- Row Start -->
             <div class="col-md-4"><!-- Col 4 Start -->
                 <div class="card"><!-- Card Start -->
                     <img class="card-img-top" src="images/logo.png" alt="Card image cap">
