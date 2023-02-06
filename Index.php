@@ -28,7 +28,7 @@
     }
     /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -90,9 +90,15 @@
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
                 style="padding-right: 15px; color: #325c8c;"></i></a>
     </div> <!-- socials top right end -->
-
+        <!-- centred logo start -->
+        <div class="d-flex justify-content-center" style="padding-top:0%; opacity: 0.5;">
+    <ul class="nav">
+                <a href="index.php"> <img src="images/logo2.png" alt="logo" style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
+    </ul>
+    </div>
+    </ul><!-- centred logo end -->
     <!-- Navbar start -->
-    <ul class="nav justify-content-center" style="postion: relative; z-index: 1;">
+    <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
     
         <nav class="navbar navbar-expand-lg" style="padding-top:;">
             <div class="container-fluid">
@@ -151,13 +157,7 @@
         </nav>
     </ul><!-- navbar end -->
     
-        <!-- centred logo start -->
-        <div class="d-flex justify-content-center" style="padding-top:15%;">
-    <ul class="nav">
-                <a href="index.php"> <img src="images/logo2.png" alt="logo" style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
-    </ul>
-    </div>
-    </ul><!-- centred logo end -->
+
     <div class="container"><!-- Constainer Start -->
 
         <div class="row" style="padding-top:25px;"><!-- Row Start -->
@@ -204,7 +204,6 @@
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
-
 
         <!-- Footer Start -->
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="position: relative; z-index: 1;">
