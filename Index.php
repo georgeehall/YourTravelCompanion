@@ -77,7 +77,7 @@
 
 <!-- The video -->
 <video autoplay muted loop id="myVideo">
-  <source src="images/testedit.mp4" type="video/mp4">
+  <source src="images/cover.mp4" type="video/mp4">
 </video>
 
 
@@ -108,20 +108,20 @@
                 </button>
                 
                 <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav" style="border-top: 1px solid black; border-bottom: 1px solid black;">
+                    <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                         <li class="nav-item">
                             <a class="nav-link" href="alllistings.php"
-                                style="padding-right: 100px;">
+                                style="padding-right: 100px; color: #d5bf77;">
                                 Be Inspired
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="lastmin.php" style="padding-right: 100px;">
+                            <a class="nav-link" href="lastmin.php" style="padding-right: 100px; color: #d5bf77;">
                                 Make a Booking
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pricing.php" style="padding-right: 100px;">
+                            <a class="nav-link" href="pricing.php" style="padding-right: 100px; color: #d5bf77;">
                                 Already Booked
                             </a>
                         </li>
@@ -145,10 +145,10 @@
                         <?php }else{ ?>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="registration.php" style="padding-right: 100px;">Register</a>
+                            <a class="nav-link" href="registration.php" style="padding-right: 100px; color: #d5bf77;">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.php">Log In</a>
+                            <a class="nav-link" href="login.php" style="color: #d5bf77;">Log In</a>
                         </li>
                         <?php } ?>
                     </ul>
