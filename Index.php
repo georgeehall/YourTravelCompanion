@@ -161,9 +161,11 @@
     <div class="container"><!-- Constainer Start -->
 
         <div class="row" style="padding-top:25px;"><!-- Row Start -->
-            <div class="col-md-4"><!-- Col 4 Start -->
-                <div class="card"><!-- Card Start -->
-                    <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+            <div class="col-md-3"><!-- Col 4 Start -->
+                <div class="card text-center"><!-- Card Start -->
+                <div class="card-header">
+                <i class="fa-solid fa-signs-post fa-2xl" style="color: #d5bf77;"></i> 
+                 </div>
                     <div class="card-body"><!-- Card Body Start -->
                         <h5 class="card-title"><!-- Card Tile Start -->
                            Be Inspired
@@ -175,31 +177,51 @@
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-4"><!-- Col 4 Start -->
-                <div class="card"><!-- Card Start -->
-                    <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+            <div class="col-md-3"><!-- Col 4 Start -->
+                <div class="card text-center"><!-- Card Start -->
+                <div class="card-header">
+                <i class="fa-solid fa-ticket fa-2xl" style="color: #d5bf77;"></i> 
+                 </div>
                     <div class="card-body"><!-- Card Body Start -->
                         <h5 class="card-title"><!-- Card Tile Start -->
-                           Make a Booking
+                           Book
                         </h5><!-- Card Title end -->
                         <p class="card-text"><!-- Card Text Start -->
-                           No need to go anywhere else, booking directly with us!
+                           Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Lets Book</a>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-4"><!-- Col 4 Start -->
-                <div class="card"><!-- Card Start -->
-                    <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+            <div class="col-md-3"><!-- Col 4 Start -->
+                <div class="card text-center"><!-- Card Start -->
+                <div class="card-header">
+                <i class="fa-solid fa-plane-departure  fa-2xl" style="color: #d5bf77;"></i> 
+                 </div>
                     <div class="card-body"><!-- Card Body Start -->
                         <h5 class="card-title"><!-- Card Tile Start -->
-                           Already Booked
+                           Pre Departure
                         </h5><!-- Card Title end -->
                         <p class="card-text"><!-- Card Text Start -->
-                           Lets add some extra to make your trip that extra bit specical!
+                           Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Book Extras</a>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 4 End -->
+            <div class="col-md-3"><!-- Col 4 Start -->
+                <div class="card text-center"><!-- Card Start -->
+                <div class="card-header">
+                <i class="fa-solid fa-plane-arrival fa-2xl" style="color: #d5bf77;"></i> 
+                 </div>
+                    <div class="card-body"><!-- Card Body Start -->
+                        <h5 class="card-title"><!-- Card Tile Start -->
+                           Return Home
+                        </h5><!-- Card Title end -->
+                        <p class="card-text"><!-- Card Text Start -->
+                           Search for your next trip using our detailed destination guides or travel style!
+                        </p><!-- Card Text End -->
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
