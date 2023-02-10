@@ -26,40 +26,55 @@
     .dropdown-menu {
         margin-top: 0;
     }
+
     /* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+    #myVideo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
 
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
+    /* Add some content at the bottom of the video/page */
+    .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+    }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
+    /* Style the button used to pause/play the video */
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+    }
+
+    h2 span {
+        background: #fff;
+        padding: 0 10px;
+
+    }
     </style>
     <script>
     $(document).ready(function() {
@@ -75,10 +90,10 @@
 
 <body>
 
-<!-- The video -->
-<video autoplay muted loop id="myVideo">
-  <source src="images/cover.mp4" type="video/mp4">
-</video>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="images/cover.mp4" type="video/mp4">
+    </video>
 
 
     <!-- socials top right start -->
@@ -90,136 +105,162 @@
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
                 style="padding-right: 15px; color: #325c8c;"></i></a>
     </div> <!-- socials top right end -->
-        <!-- centred logo start -->
-        <div class="d-flex justify-content-center" style="padding-top:0%; opacity: 0.5;">
-    <ul class="nav">
-                <a href="index.php"> <img src="images/logo2.png" alt="logo" style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
-    </ul>
+    <!-- centred logo start -->
+    <div class="d-flex justify-content-center" style="padding-top:0%; opacity: 0.5;">
+        <ul class="nav">
+            <a href="index.php"> <img src="images/logo2.png" alt="logo" class="img-fluid"
+                    style="height:135px; padding-top:10px;z-index: 1;position: relative;"> </a>
+        </ul>
     </div>
     </ul><!-- centred logo end -->
-    <!-- Navbar start -->
-    <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
-    
-        <nav class="navbar navbar-expand-lg" style="padding-top:;">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
-                        <li class="nav-item">
-                            <a class="nav-link" href="alllistings.php"
-                                style="padding-right: 100px; color: #d5bf77;">
-                                Be Inspired
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="lastmin.php" style="padding-right: 100px; color: #d5bf77;">
-                                Make a Booking
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.php" style="padding-right: 100px; color: #d5bf77;">
-                                Already Booked
-                            </a>
-                        </li>
-                        <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
+    <div class="d-lg-none">
+        <!-- Navbar start -->
+        <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
+
+            <nav class="navbar navbar-expand-lg" style="padding-top:;">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="alllistings.php"
+                                    style="padding-right: 100px; color: #d5bf77;">
+                                    Be Inspired
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lastmin.php" style="padding-right: 100px; color: #d5bf77;">
+                                    Make a Booking
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pricing.php" style="padding-right: 100px; color: #d5bf77;">
+                                    Already Booked
+                                </a>
+                            </li>
+                            <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
                     {
                     ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Current Listings</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
-                            </ul>
-                        </li>
-                        <?php }else{ ?>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Current Listings</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
+                                </ul>
+                            </li>
+                            <?php }else{ ?>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="registration.php" style="padding-right: 100px; color: #d5bf77;">Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php" style="color: #d5bf77;">Log In</a>
-                        </li>
-                        <?php } ?>
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="registration.php"
+                                    style="padding-right: 100px; color: #d5bf77;">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.php" style="color: #d5bf77;">Log In</a>
+                            </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </ul><!-- navbar end -->
-    
+            </nav>
+        </ul><!-- navbar end -->
+    </div>
 
-    <div class="container"><!-- Constainer Start -->
+    <div class="container">
+        <!-- Constainer Start -->
 
-        <div class="row" style="padding-top:25px;"><!-- Row Start -->
-            <div class="col-md-3"><!-- Col 4 Start -->
-                <div class="card text-center"><!-- Card Start -->
-                <div class="card-header">
-                <i class="fa-solid fa-signs-post fa-2xl" style="color: #d5bf77;"></i> 
-                 </div>
-                    <div class="card-body"><!-- Card Body Start -->
-                        <h5 class="card-title"><!-- Card Tile Start -->
-                           Be Inspired
+        <div class="row" style="padding-top:35%;">
+            <!-- Row Start -->
+            <div class="col-md-3" style="padding-top:5px;">
+                <!-- Col 4 Start -->
+                <div class="card text-center">
+                    <!-- Card Start -->
+                    <div class="card-header">
+                        <i class="fa-solid fa-signs-post fa-2xl" style="color: #d5bf77;"></i>
+                    </div>
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <h5 class="card-title">
+                            <!-- Card Tile Start -->
+                            Be Inspired
                         </h5><!-- Card Title end -->
-                        <p class="card-text"><!-- Card Text Start -->
-                           Search for your next trip using our detailed destination guides or travel style!
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                            Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-3"><!-- Col 4 Start -->
-                <div class="card text-center"><!-- Card Start -->
-                <div class="card-header">
-                <i class="fa-solid fa-ticket fa-2xl" style="color: #d5bf77;"></i> 
-                 </div>
-                    <div class="card-body"><!-- Card Body Start -->
-                        <h5 class="card-title"><!-- Card Tile Start -->
-                           Book
+            <div class="col-md-3" style="padding-top:5px;">
+                <!-- Col 4 Start -->
+                <div class="card text-center">
+                    <!-- Card Start -->
+                    <div class="card-header">
+                        <i class="fa-solid fa-ticket fa-2xl" style="color: #d5bf77;"></i>
+                    </div>
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <h5 class="card-title">
+                            <!-- Card Tile Start -->
+                            Book
                         </h5><!-- Card Title end -->
-                        <p class="card-text"><!-- Card Text Start -->
-                           Search for your next trip using our detailed destination guides or travel style!
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                            Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-3"><!-- Col 4 Start -->
-                <div class="card text-center"><!-- Card Start -->
-                <div class="card-header">
-                <i class="fa-solid fa-plane-departure  fa-2xl" style="color: #d5bf77;"></i> 
-                 </div>
-                    <div class="card-body"><!-- Card Body Start -->
-                        <h5 class="card-title"><!-- Card Tile Start -->
-                           Pre Departure
+            <div class="col-md-3" style="padding-top:5px;">
+                <!-- Col 4 Start -->
+                <div class="card text-center">
+                    <!-- Card Start -->
+                    <div class="card-header">
+                        <i class="fa-solid fa-plane-departure  fa-2xl" style="color: #d5bf77;"></i>
+                    </div>
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <h5 class="card-title">
+                            <!-- Card Tile Start -->
+                            Pre Departure
                         </h5><!-- Card Title end -->
-                        <p class="card-text"><!-- Card Text Start -->
-                           Search for your next trip using our detailed destination guides or travel style!
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                            Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-3"><!-- Col 4 Start -->
-                <div class="card text-center"><!-- Card Start -->
-                <div class="card-header">
-                <i class="fa-solid fa-plane-arrival fa-2xl" style="color: #d5bf77;"></i> 
-                 </div>
-                    <div class="card-body"><!-- Card Body Start -->
-                        <h5 class="card-title"><!-- Card Tile Start -->
-                           Return Home
+            <div class="col-md-3" style="padding-top:5px;">
+                <!-- Col 4 Start -->
+                <div class="card text-center">
+                    <!-- Card Start -->
+                    <div class="card-header">
+                        <i class="fa-solid fa-plane-arrival fa-2xl" style="color: #d5bf77;"></i>
+                    </div>
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <h5 class="card-title">
+                            <!-- Card Tile Start -->
+                            Return Home
                         </h5><!-- Card Title end -->
-                        <p class="card-text"><!-- Card Text Start -->
-                           Search for your next trip using our detailed destination guides or travel style!
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                            Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -227,8 +268,100 @@
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
 
+        <h2 style="padding-top:10px;"><span>Why Use Us</span></h2>
+
+
+        <div class="row" style="padding-top:5px;">
+            <!-- Row Start -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fa-solid fa-person fa-5x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Personal consultant</h5>
+                                You will always speak to the same person
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                            <i class="fa-solid fa-earth-europe fa-4x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Worldwide</h5>
+                                No destination is to far, We work gloablly
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fa-solid fa-clock fa-4x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Save Time</h5>
+                                Let us do the hard work for you
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="images/atol.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <h5>ATOL</h5>
+                                Full protected when booking with us
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+        </div><!-- Row End -->
+        <h2></h2>
         <!-- Footer Start -->
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="position: relative; z-index: 1;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+            style="position: relative; z-index: 1;">
             <ul class="nav col-md-4 justify-content-start">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
@@ -250,4 +383,5 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
