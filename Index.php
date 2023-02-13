@@ -439,7 +439,7 @@
         </ul>
         <!-- logo start -->
         <ul class="nav">
-            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:50px;"> </a>
+            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
         </ul><!-- logo end -->
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
         </a>
