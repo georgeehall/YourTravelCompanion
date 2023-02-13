@@ -75,6 +75,13 @@
         padding: 0 10px;
 
     }
+    .landing-page-banner {
+        position: relative;
+        display: inline-block;
+        border: 5px solid black;
+        
+        text-align: center;
+    }
     </style>
     <script>
     $(document).ready(function() {
@@ -171,28 +178,53 @@
                 </div>
             </nav>
         </ul><!-- navbar end -->
-<!-- Jumbotron -->
-<!-- <div class="p-5 text-center bg-image rounded-3" style="
-    background-image: url('images/logo3.png');
-    height: 400px;
-  "> -->
-<div class="mask" style="background-color: ;width: 50%;border: solid 10px black;height: 50%; justify: center;">
-    <div class="d-flex justify-content-center align-items-center h-100">
-      <div class="text-black">
-        <h1 class="mb-3">Malta</h1>
-        <a class="btn btn-outline-dark btn-lg" href="#!" role="button">Call to action</a>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/inspired.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/150" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/150 " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<!-- Jumbotron -->
+
     <div class="container">
         <!-- Constainer Start -->
  
 
     <!-- Footer Start -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-        style="position: relative; z-index: 1;">
+        style="">
         <ul class="nav col-md-4 justify-content-start">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
@@ -206,9 +238,16 @@
         </a>
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl" style="padding-right: 5px;"></i></a>
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
-                style="padding-right: 15px;"></i></a>
+                style="padding-right: 5px;"></i></a>
     </footer><!-- Footer End -->
     </div> <!-- Container End -->
+    <script>
+        var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: false
+})
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
