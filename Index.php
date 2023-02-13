@@ -116,7 +116,6 @@
     <div class="d-lg-none">
         <!-- Navbar start -->
         <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
-
             <nav class="navbar navbar-expand-lg" style="padding-top:;">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -124,22 +123,26 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="alllistings.php"
+                                <a class="nav-link" href="beinspired.php"
                                     style="padding-right: 100px; color: #d5bf77;">
                                     Be Inspired
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="lastmin.php" style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="book.php" style="padding-right: 100px; color: #d5bf77;">
                                     Make a Booking
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pricing.php" style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="predeparture.php" style="padding-right: 100px; color: #d5bf77;">
+                                    Already Booked
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="returnhome.php" style="padding-right: 100px; color: #d5bf77;">
                                     Already Booked
                                 </a>
                             </li>
@@ -176,10 +179,8 @@
             </nav>
         </ul><!-- navbar end -->
     </div>
-
     <div class="container">
         <!-- Constainer Start -->
-
         <div class="row" style="padding-top:35%;">
             <!-- Row Start -->
             <div class="col-md-3" style="padding-top:5px;">
@@ -199,7 +200,7 @@
                             <!-- Card Text Start -->
                             Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -220,7 +221,7 @@
                             <!-- Card Text Start -->
                             Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="book.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -241,7 +242,7 @@
                             <!-- Card Text Start -->
                             Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="predeparture.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -262,15 +263,12 @@
                             <!-- Card Text Start -->
                             Search for your next trip using our detailed destination guides or travel style!
                         </p><!-- Card Text End -->
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="returnhome.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
-
         <h2 style="padding-top:10px;"><span>Why Use Us</span></h2>
-
-
         <div class="row" style="padding-top:5px;">
             <!-- Row Start -->
             <div class="col-md-3">
@@ -304,7 +302,7 @@
                             <!-- Card Text Start -->
                         <div class="row">
                             <div class="col-md-3">
-                            <i class="fa-solid fa-earth-europe fa-4x" style="color: black;"></i>
+                                <i class="fa-solid fa-earth-europe fa-4x" style="color: black;"></i>
                             </div>
                             <div class="col-md-9">
                                 <h5>Worldwide</h5>
@@ -359,26 +357,96 @@
             </div><!-- Col 3 End -->
         </div><!-- Row End -->
         <h2></h2>
-        <h3>Our Top Destinations</h3>
-        <!-- Footer Start -->
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-            style="position: relative; z-index: 1;">
-            <ul class="nav col-md-4 justify-content-start">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-            </ul>
-            <!-- logo start -->
-            <ul class="nav">
-                <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:75px;"> </a>
-            </ul><!-- logo end -->
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl "
-                    style="padding-right: 5px;"></i> </a>
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl"
-                    style="padding-right: 5px;"></i></a>
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
-                    style="padding-right: 15px;"></i></a>
-        </footer><!-- Footer End -->
+        <h3>Holidays for Everyone</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Solo Travel</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Couple Holidays</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="border: none;">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Family Holidays</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2><span>Our Top Picks</span></h2>
+
+    <!-- Footer Start -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        style="position: relative; z-index: 1;">
+        <ul class="nav col-md-4 justify-content-start">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+        </ul>
+        <!-- logo start -->
+        <ul class="nav">
+            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:75px;"> </a>
+        </ul><!-- logo end -->
+        <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
+        </a>
+        <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl" style="padding-right: 5px;"></i></a>
+        <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
+                style="padding-right: 15px;"></i></a>
+    </footer><!-- Footer End -->
     </div> <!-- Container End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
