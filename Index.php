@@ -430,8 +430,8 @@
         <h2><span>Our Top Picks</span></h2>
 
     <!-- Footer Start -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-        style="position: relative; z-index: 1;">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+        style="">
         <ul class="nav col-md-4 justify-content-start">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
@@ -439,7 +439,7 @@
         </ul>
         <!-- logo start -->
         <ul class="nav">
-            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:75px;"> </a>
+            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:50px;"> </a>
         </ul><!-- logo end -->
         <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
         </a>
