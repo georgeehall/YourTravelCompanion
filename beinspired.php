@@ -260,11 +260,11 @@
                         <!-- Card Body Start -->
                         <h5 class="card-title">
                             <!-- Card Tile Start -->
-                            Special Occasion
+                            Our Wishlist
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Celebrate in luxury and style, our top picks for those special moments
+                            Look at our personal wishlist destinations!
                         </p><!-- Card Text End -->
                         <a href="returnhome.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -286,7 +286,39 @@
             </div>
             <div class="col-md-6">
                 <div class="card text-center">
-                    <img src="images/jamacia.png" class="img-fluid rounded-start" alt="...">
+                    <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height:250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Jamacia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="images/malta.png" class="img-fluid rounded-start" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Malta</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height: 165px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Jamacia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height: 165px;">
                     <div class="card-body">
                         <h5 class="card-title">Jamacia</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

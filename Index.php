@@ -426,9 +426,7 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <h2><span>Our Top Picks</span></h2>
-
+                            </div>
     <!-- Footer Start -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
         style="">
