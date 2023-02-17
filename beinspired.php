@@ -11,6 +11,7 @@
     <title>Be Inspired</title>
     <script src="https://kit.fontawesome.com/ea02caf681.js" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <style></style>
     <script type="text/javascript" src=""></script>
@@ -203,7 +204,7 @@
                             <!-- Card Text Start -->
                             See destinations in flight time from the UK to get your travel buds flying
                         </p><!-- Card Text End -->
-                        <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Flight Times</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -224,7 +225,7 @@
                             <!-- Card Text Start -->
                             Beach, Adventours or anything else. We have you covered
                         </p><!-- Card Text End -->
-                        <a href="book.php" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">Large modal</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -245,7 +246,7 @@
                             <!-- Card Text Start -->
                             Solo, couples, families, any size be inspired to find your next holiday
                         </p><!-- Card Text End -->
-                        <a href="predeparture.php" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Large modal</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -266,67 +267,173 @@
                             <!-- Card Text Start -->
                             Look at our personal wishlist destinations!
                         </p><!-- Card Text End -->
-                        <a href="returnhome.php" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg4">Large modal</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
-        <h2 style="padding-top:10px;"><span>Our Top Picks</span></h2>
+        <h2 style="padding-top:20px;"><span>Our Top Picks</span></h2>
 
         <div class="row">
             <div class="col-md-6">
                 <div class="card text-center">
-                    <img src="images/malta.png" class="img-fluid rounded-start" alt="...">
+                    <img src="images/maldives.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
                     <div class="card-body">
-                        <h5 class="card-title">Malta</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Maldives</h5>
+                        <p class="card-text">Step into a paradise of crystal-clear waters and pristine beaches in the Maldives, where luxurious overwater bungalows and vibrant marine life await.</p>
+                        <a href="#" class="link-primary" style="display: flex;justify-content: end;">Read More</a>
+
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card text-center">
-                    <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height:250px">
+                    <img src="images/mexico.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
                     <div class="card-body">
-                        <h5 class="card-title">Jamacia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Mexico</h5>
+                        <p class="card-text">Experience the colorful culture, ancient ruins, and mouth-watering cuisine of Mexico, where every corner is a fiesta for the senses</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card text-center">
-                    <img src="images/malta.png" class="img-fluid rounded-start" alt="...">
+                    <img src="images/jamacia.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
                     <div class="card-body">
-                        <h5 class="card-title">Malta</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Jamacia</h5>
+                        <p class="card-text">Discover sun, sand, and spice, laid-back island vibes with reggae</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card text-center">
-                <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height: 165px;">
+                <img src="images/bordaux.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
                     <div class="card-body">
-                        <h5 class="card-title">Jamacia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Bordeaux</h5>
+                        <p class="card-text">Indulge in world-renowned wines and rich history, every sip tells a story</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card text-center">
-                <img src="images/jamacia.png" class="img-fluid rounded-start" alt="..." style="height: 165px;">
+                <img src="images/sydney.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
                     <div class="card-body">
-                        <h5 class="card-title">Jamacia</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Sydney</h5>
+                        <p class="card-text">Vibrant city with a perfect blend of sun and sand</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                <img src="images/luxemberg.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Luxembourg</h5>
+                        <p class="card-text">Fairytale charm, castles, picturesque countryside with city living</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
         </div>
+
+
+<!-- Flight Times -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Flight Times</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        1
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Holiday Style -->
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+
+  <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        2
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Party Size -->
+
+
+<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+
+  <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        3
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Our wishlist -->
+<div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+
+  <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        4
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
         <!-- Footer Start -->
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="">
             <ul class="nav col-md-4 justify-content-start">
@@ -347,6 +454,14 @@
                     style="padding-right: 15px;"></i></a>
         </footer><!-- Footer End -->
     </div> <!-- Container End -->
+    <script>
+        var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>

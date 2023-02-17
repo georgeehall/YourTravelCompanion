@@ -198,7 +198,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Search for your next trip using our detailed destination guides or travel style!
+                         Ignite your wanderlust and take youself on a adventure of a lifetime.
                         </p><!-- Card Text End -->
                         <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -219,7 +219,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Search for your next trip using our detailed destination guides or travel style!
+                            Research done, now get booking your next adventure!
                         </p><!-- Card Text End -->
                         <a href="book.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -240,7 +240,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Search for your next trip using our detailed destination guides or travel style!
+                            Dont waste a minute not relaxing, book extras here
                         </p><!-- Card Text End -->
                         <a href="predeparture.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -261,7 +261,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Search for your next trip using our detailed destination guides or travel style!
+                            Extend that adenvture for a few more hours!
                         </p><!-- Card Text End -->
                         <a href="returnhome.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -365,15 +365,14 @@
                         <p class="card-text">
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/solo.jpg" class="img-fluid rounded" alt="...">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Solo Travel</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Embark on a journey of self-discovery with solo travel. Explore new places, meet new people, and create unforgettable memories on your own terms</p>
                                 </div>
                             </div>
                         </div>
@@ -388,15 +387,14 @@
                         <p class="card-text">
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/couple.jpg" class="img-fluid rounded" alt="...">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Couple Holidays</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Relax, rejuvenate and create unforgettable memories together. From romantic getaways to adventure-packed trips, there's something for every couple to enjoy and cherish</p>
                                 </div>
                             </div>
                         </div>
@@ -410,15 +408,14 @@
                         <p class="card-text">
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="images/logo3.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/family.jpg" class="img-fluid rounded" alt="...">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Family Holidays</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Create unforgettable memories and strengthen bonds with a fun-filled family holiday. Beaches to cultural adventures, something for every family to enjoy and remember for years to come</p>
                                 </div>
                             </div>
                         </div>
