@@ -124,8 +124,7 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="beinspired.php"
-                                    style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
                                     Be Inspired
                                 </a>
                             </li>
@@ -135,7 +134,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="predeparture.php" style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="predeparture.php"
+                                    style="padding-right: 100px; color: #d5bf77;">
                                     Already Booked
                                 </a>
                             </li>
@@ -196,7 +196,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                         Learn more about the people behind Your Travel Companion
+                            Learn more about the people behind Your Travel Companion
                         </p><!-- Card Text End -->
                         <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -217,7 +217,7 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                         Ignite your wanderlust and take youself on a adventure of a lifetime.
+                            Ignite your wanderlust and take youself on a adventure of a lifetime.
                         </p><!-- Card Text End -->
                         <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
@@ -240,7 +240,7 @@
                             <!-- Card Text Start -->
                             Research done, now get booking your next adventure!
                         </p><!-- Card Text End -->
-                        <a href="getaquote.php" class="btn btn-primary">Go somewhere</a>
+                        <a href="book.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div>Col 4 End -->
@@ -334,90 +334,71 @@
             </div><!-- Col 3 End -->
         </div><!-- Row End -->
         <h2></h2>
-        <h3>Holidays for Everyone</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="border: none;">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="images/solo.jpg" class="img-fluid rounded" alt="...">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Solo Travel</h5>
-                                    <p class="card-text">Embark on a journey of self-discovery with solo travel. Explore new places, meet new people, and create unforgettable memories on your own terms</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </p>
+
+
+        <h2 style="padding-top:10px;"><span>Request a Quote</span></h2>
+        <form action="submit-form.php" method="post">
+            <!-- Contact Information Section -->
+            <h3>Contact Information</h3>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" id="first_name" name="first_name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" id="last_name" name="last_name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="email" name="email">
+                <label for="marketing">Marketing Consent:</label>
+                <p>By ticking this, you agree to receive marketing and offers from Your Travel Companion. See our
+                    Privacy Policy</p>
+            </div>
+
+            <!-- Trip Information Section -->
+            <h3>Trip Information</h3>
+
+            
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <input type="text" class="form-control" id="destination" name="destination" required>
+            </div>
+            <div class="row" style="margin-top:5px;">
+                <div class="col">
+                    <label for="dep">Departure Date:</label>
+                    <input type="date" class="form-control" id="first_name" name="departure_date">
+                </div>
+                <div class="col">
+                <label for="dep">Return Date:</label>
+                    <input type="date" class="form-control" id="return_date" name="return_date">
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card" style="border: none;">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="images/couple.jpg" class="img-fluid rounded" alt="...">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Couple Holidays</h5>
-                                    <p class="card-text">Relax, rejuvenate and create unforgettable memories together. From romantic getaways to adventure-packed trips, there's something for every couple to enjoy and cherish</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="border: none;">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="images/family.jpg" class="img-fluid rounded" alt="...">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Family Holidays</h5>
-                                    <p class="card-text">Create unforgettable memories and strengthen bonds with a fun-filled family holiday. Beaches to cultural adventures, something for every family to enjoy and remember for years to come</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-                            </div>
-    <!-- Footer Start -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
-        style="">
-        <ul class="nav col-md-4 justify-content-start">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-        </ul>
-        <!-- logo start -->
-        <ul class="nav">
-            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
-        </ul><!-- logo end -->
-        <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
-        </a>
-        <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
-                style="padding-right: 15px;"></i></a>
-    </footer><!-- Footer End -->
+
+
+
+
+            <!-- Footer Start -->
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="">
+                <ul class="nav col-md-4 justify-content-start">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                </ul>
+                <!-- logo start -->
+                <ul class="nav">
+                    <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
+                </ul><!-- logo end -->
+                <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl "
+                        style="padding-right: 5px;"></i>
+                </a>
+                <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
+                        style="padding-right: 15px;"></i></a>
+            </footer><!-- Footer End -->
     </div> <!-- Container End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
