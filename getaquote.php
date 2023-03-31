@@ -249,7 +249,7 @@
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
-        <h2 style="padding-top:20px;"><span>Our Top Picks</span></h2>
+        <h2 style="padding-top:20px;"><span>Latest Offers</span></h2>
 
         <div class="row">
             <div class="col-md-6">
@@ -269,48 +269,6 @@
                     <div class="card-body">
                         <h5 class="card-title">Mexico</h5>
                         <p class="card-text">Experience the colorful culture, ancient ruins, and mouth-watering cuisine of Mexico, where every corner is a fiesta for the senses</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="padding-top: 10px;">
-            <div class="col-md-3">
-                <div class="card text-center">
-                    <img src="images/jamacia.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Jamacia</h5>
-                        <p class="card-text">Discover sun, sand, and spice, laid-back island vibes with reggae</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center">
-                <img src="images/bordaux.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Bordeaux</h5>
-                        <p class="card-text">Indulge in world-renowned wines and rich history, every sip tells a story</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center">
-                <img src="images/sydney.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Sydney</h5>
-                        <p class="card-text">Vibrant city with a perfect blend of sun and sand</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center">
-                <img src="images/luxemberg.jpg" class="img-fluid rounded-start" alt="..." style="height: 165px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Luxembourg</h5>
-                        <p class="card-text">Fairytale charm, castles, picturesque countryside with city living</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
