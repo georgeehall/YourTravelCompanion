@@ -100,13 +100,11 @@
     </video>
 
 
-    <!-- socials top right start -->
-    <div class="d-flex justify-content-end" style="padding-top:10px;z-index: 1;position: relative;">
-        <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl "
+  <!-- socials top right start -->
+  <div class="d-flex justify-content-end" style="padding-top:10px;z-index: 1;position: relative;">
+        <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl "
                 style="padding-right: 5px; color: #325c8c;"></i></a>
-        <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl"
-                style="padding-right: 5px; color: #325c8c;"></i></a>
-        <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
+        <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
                 style="padding-right: 15px; color: #325c8c;"></i></a>
     </div> <!-- socials top right end -->
     <!-- centred logo start -->
@@ -130,7 +128,8 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="beinspired.php"
+                                    style="padding-right: 100px; color: #d5bf77;">
                                     Be Inspired
                                 </a>
                             </li>
@@ -140,8 +139,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="predeparture.php"
-                                    style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="predeparture.php" style="padding-right: 100px; color: #d5bf77;">
                                     Already Booked
                                 </a>
                             </li>
@@ -434,25 +432,23 @@
 
 
 
-        <!-- Footer Start -->
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="">
-            <ul class="nav col-md-4 justify-content-start">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-            </ul>
-            <!-- logo start -->
-            <ul class="nav">
-                <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
-            </ul><!-- logo end -->
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-facebook fa-2xl "
-                    style="padding-right: 5px;"></i>
-            </a>
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-twitter fa-2xl"
-                    style="padding-right: 5px;"></i></a>
-            <a href="https://www.w3schools.com"> <i class="fa-brands fa-instagram fa-2xl"
-                    style="padding-right: 15px;"></i></a>
-        </footer><!-- Footer End -->
+       <!-- Footer Start -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+        style="">
+        <ul class="nav col-md-4 justify-content-start">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+        </ul>
+        <!-- logo start -->
+        <ul class="nav">
+            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
+        </ul><!-- logo end -->
+        <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
+        </a>
+        <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
+                style="padding-right: 15px;"></i></a>
+    </footer><!-- Footer End -->
     </div> <!-- Container End -->
     <script>
         var myModal = document.getElementById('myModal')

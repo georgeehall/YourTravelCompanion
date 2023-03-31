@@ -243,7 +243,7 @@
                         <a href="getaquote.php" class="btn btn-primary">Go somewhere</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
-            </div>Col 4 End -->
+            </div><!--Col 4 End -->
         </div><!-- Row End -->
         <h2 style="padding-top:10px;"><span>Why Use Us</span></h2>
         <div class="row" style="padding-top:5px;">
