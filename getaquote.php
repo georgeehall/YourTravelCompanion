@@ -11,7 +11,8 @@
     <title>Get a Quote</title>
     <script src="https://kit.fontawesome.com/ea02caf681.js" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <style></style>
     <script type="text/javascript" src=""></script>
@@ -100,8 +101,8 @@
     </video>
 
 
-  <!-- socials top right start -->
-  <div class="d-flex justify-content-end" style="padding-top:10px;z-index: 1;position: relative;">
+    <!-- socials top right start -->
+    <div class="d-flex justify-content-end" style="padding-top:10px;z-index: 1;position: relative;">
         <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl "
                 style="padding-right: 5px; color: #325c8c;"></i></a>
         <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
@@ -128,8 +129,7 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="beinspired.php"
-                                    style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
                                     Be Inspired
                                 </a>
                             </li>
@@ -139,7 +139,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="predeparture.php" style="padding-right: 100px; color: #d5bf77;">
+                                <a class="nav-link" href="predeparture.php"
+                                    style="padding-right: 100px; color: #d5bf77;">
                                     Already Booked
                                 </a>
                             </li>
@@ -200,9 +201,11 @@
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Explore the world with ease - book your flight only with us and let your next adventure take flight.
+                            Explore the world with ease - book your flight only with us and let your next adventure take
+                            flight.
                         </p><!-- Card Text End -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Get Flight Only Quote</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target=".bd-example-modal-lg">Get Flight Only Quote</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -223,7 +226,8 @@
                             <!-- Card Text Start -->
                             Relax in comfort and style - book your hotel only with us and make your stay a memorable one
                         </p><!-- Card Text End -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">Get Hotel Only Quote</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target=".bd-example-modal-lg2">Get Hotel Only Quote</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -244,7 +248,8 @@
                             <!-- Card Text Start -->
                             Fly and stay with ease - book your air and hotel with us for the perfect travel experience
                         </p><!-- Card Text End -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Get Flight & Hotel Quote</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target=".bd-example-modal-lg3">Get Flight & Hotel Quote</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -257,7 +262,8 @@
                     <img src="images/maldives.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
                     <div class="card-body">
                         <h5 class="card-title">Maldives</h5>
-                        <p class="card-text">Step into a paradise of crystal-clear waters and pristine beaches in the Maldives, where luxurious overwater bungalows and vibrant marine life await.</p>
+                        <p class="card-text">Step into a paradise of crystal-clear waters and pristine beaches in the
+                            Maldives, where luxurious overwater bungalows and vibrant marine life await.</p>
                         <a href="#" class="link-primary" style="display: flex;justify-content: end;">Read More</a>
 
                     </div>
@@ -268,7 +274,8 @@
                     <img src="images/mexico.jpg" class="img-fluid rounded-start" alt="..." style="height: 300px;">
                     <div class="card-body">
                         <h5 class="card-title">Mexico</h5>
-                        <p class="card-text">Experience the colorful culture, ancient ruins, and mouth-watering cuisine of Mexico, where every corner is a fiesta for the senses</p>
+                        <p class="card-text">Experience the colorful culture, ancient ruins, and mouth-watering cuisine
+                            of Mexico, where every corner is a fiesta for the senses</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -276,102 +283,154 @@
         </div>
 
 
-<!-- Flight Times -->
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-  <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Flight Quote</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        1
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+        <!-- Flight Times -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Flight Quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        1
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!-- Holiday Style -->
-<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+        <!-- Holiday Style -->
+        <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hotel Quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="inserthotelquote.php">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="checkin" class="form-label">Check-in date</label>
+                                <input type="date" class="form-control" id="checkin" name="checkin" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="checkout" class="form-label">Check-out date</label>
+                                <input type="date" class="form-control" id="checkout" name="checkout" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="board_basis" class="form-label">Board Basis</label>
+                                <select class="form-select" id="board_basis" name="board_basis" required>
+                                    <option value="">Select board basis...</option>
+                                    <option value="room_only">Room Only</option>
+                                    <option value="bed_and_breakfast">Bed and Breakfast</option>
+                                    <option value="half_board">Half Board</option>
+                                    <option value="full_board">Full Board</option>
+                                    <option value="all_inclusive">All Inclusive</option>
+                                </select>
+                            </div>
 
-  <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Hotel Quote</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        2
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+                            <div class="mb-3">
+                                <label for="adults" class="form-label">Number of adults</label>
+                                <input type="number" class="form-control" id="adults" name="adults" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="children" class="form-label">Number of children</label>
+                                <input type="number" class="form-control" id="children" name="children" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="infants" class="form-label">Number of infants</label>
+                                <input type="number" class="form-control" id="infants" name="infants" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Additional information</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-<!-- Our wishlist -->
-<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+        <!-- Our wishlist -->
+        <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
 
-  <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Flight & Hotel Quote</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        3
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Flight & Hotel Quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        3
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-       <!-- Footer Start -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
-        style="">
-        <ul class="nav col-md-4 justify-content-start">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-        </ul>
-        <!-- logo start -->
-        <ul class="nav">
-            <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
-        </ul><!-- logo end -->
-        <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl " style="padding-right: 5px;"></i>
-        </a>
-        <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
-                style="padding-right: 15px;"></i></a>
-    </footer><!-- Footer End -->
+
+
+
+        <!-- Footer Start -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="">
+            <ul class="nav col-md-4 justify-content-start">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+            </ul>
+            <!-- logo start -->
+            <ul class="nav">
+                <a href="index.php"> <img src="images/logonobg.png" alt="logo" style="height:5px;"> </a>
+            </ul><!-- logo end -->
+            <a href="https://www.facebook.com/Your.TravelCompanionltd/"> <i class="fa-brands fa-facebook fa-2xl "
+                    style="padding-right: 5px;"></i>
+            </a>
+            <a href="https://www.instagram.com/your.travelcompanion/"> <i class="fa-brands fa-instagram fa-2xl"
+                    style="padding-right: 15px;"></i></a>
+        </footer><!-- Footer End -->
     </div> <!-- Container End -->
     <script>
-        var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
 
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
-</script>
+    myModal.addEventListener('shown.bs.modal', function() {
+        myInput.focus()
+    })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
