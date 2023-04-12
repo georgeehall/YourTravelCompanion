@@ -405,8 +405,7 @@
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
         style="">
         <ul class="nav col-md-4 justify-content-start">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="privacy.php" class="nav-link px-2 text-muted">Privacy Policy</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
         </ul>
         <!-- logo start -->
