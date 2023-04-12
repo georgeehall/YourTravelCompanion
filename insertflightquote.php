@@ -17,9 +17,10 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $destination = $_POST['destination'];
-$checkin = $_POST['checkin'];
-$checkout = $_POST['checkout'];
-$board_basis = $_POST['board_basis'];
+$outbound_date = $_POST['outbound_date'];
+$return_date = $_POST['return_date'];
+$travel_class = $_POST['travel_class'];
+$preferred_airline = $_POST['preferred_airline'];
 $adults = $_POST['adults'];
 $children = $_POST['children'];
 $infants = $_POST['infants'];
@@ -30,17 +31,20 @@ $name = mysqli_real_escape_string($connection, $name);
 $email = mysqli_real_escape_string($connection, $email);
 $phone = mysqli_real_escape_string($connection, $phone);
 $destination = mysqli_real_escape_string($connection, $destination);
-$checkin = mysqli_real_escape_string($connection, $checkin);
-$checkout = mysqli_real_escape_string($connection, $checkout);
-$board_basis = mysqli_real_escape_string($connection, $board_basis);
+$outbound_date = mysqli_real_escape_string($connection, $outbound_date);
+$return_date = mysqli_real_escape_string($connection, $return_date);
+$travel_class = mysqli_real_escape_string($connection, $travel_class);
+$preferred_airline = mysqli_real_escape_string($connection, $preferred_airline);
 $adults = mysqli_real_escape_string($connection, $adults);
 $children = mysqli_real_escape_string($connection, $children);
 $infants = mysqli_real_escape_string($connection, $infants);
 $message = mysqli_real_escape_string($connection, $message);
 
 // Construct the SQL query
-$sql = "INSERT INTO hotel_quotes (name, email, phone, destination, checkin, checkout, board_basis, adults, children, infants, message) 
-        VALUES ('$name', '$email', '$phone', '$destination', '$checkin', '$checkout', '$board_basis', '$adults', '$children', '$infants', '$message')";
+// Construct the SQL query
+$sql = "INSERT INTO flight_quotes (name, email, phone, destination, preferred_airline, outbound_date, return_date, travel_class, adults, children, infants, message)
+        VALUES ('$name', '$email', '$phone', '$destination', '$preferred_airline', '$outbound_date', '$return_date', '$travel_class', '$adults', '$children', '$infants', '$message')";
+
 
 // Execute the query and check if it was successful
 if (mysqli_query($connection, $sql)) {

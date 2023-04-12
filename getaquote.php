@@ -283,7 +283,7 @@
         </div>
 
 
-        <!-- Flight Times -->
+        <!-- Flight Only -->
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -295,7 +295,65 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        1
+                    <form method="post" action="insertflightquote.php">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="destination" class="form-label">Destination</label>
+                                <input type="text" class="form-control" id="destination" name="destination" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="outbound_date" class="form-label">Outbound date</label>
+                                <input type="date" class="form-control" id="outbound_date" name="outbound_date" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="return_date" class="form-label">Return date</label>
+                                <input type="date" class="form-control" id="return_date" name="return_date" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="travel_class" class="form-label">Travel Class</label>
+                                <select class="form-select" id="travel_class" name="travel_class" required>
+                                    <option value="">Select travel class...</option>
+                                    <option value="economy">Economy</option>
+                                    <option value="premium_economy">Premium Econony</option>
+                                    <option value="business_class">Business Class</option>
+                                    <option value="first_class">First Class</option>
+                                    <option value="all_inclusive">Other (Put details in Additional info)</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="preferred_airline" class="form-label">Preferred Airline</label>
+                                <input type="text" class="form-control" id="preferred_airline" name="preferred_airline">
+                            </div>
+                            <div class="mb-3">
+                                <label for="adults" class="form-label">Number of adults</label>
+                                <input type="number" class="form-control" id="adults" name="adults" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="children" class="form-label">Number of children</label>
+                                <input type="number" class="form-control" id="children" name="children" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="infants" class="form-label">Number of infants</label>
+                                <input type="number" class="form-control" id="infants" name="infants" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Additional information</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -305,7 +363,7 @@
             </div>
         </div>
 
-        <!-- Holiday Style -->
+        <!-- Hotel Only -->
         <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -329,6 +387,10 @@
                             <div class="mb-3">
                                 <label for="phone" class="form-label">Phone number</label>
                                 <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="destination" class="form-label">Destination</label>
+                                <input type="text" class="form-control" id="destination" name="destination" required>
                             </div>
                             <div class="mb-3">
                                 <label for="checkin" class="form-label">Check-in date</label>
