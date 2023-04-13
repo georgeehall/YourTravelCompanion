@@ -193,7 +193,7 @@
                             <!-- Card Text Start -->
                          Learn more about the people behind Your Travel Companion
                         </p><!-- Card Text End -->
-                        <a href="beinspired.php" class="btn btn-primary">Find out about us</a>
+                        <a href="about.php" class="btn btn-primary">Find out about us</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -401,7 +401,7 @@
         style="">
         <ul class="nav col-md-4 justify-content-start">
             <li class="nav-item"><a href="privacy.php" class="nav-link px-2 text-muted">Privacy Policy</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link px-2 text-muted">About Us</a></li>
         </ul>
         <!-- logo start -->
         <ul class="nav">

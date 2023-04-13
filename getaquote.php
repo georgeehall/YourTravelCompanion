@@ -221,7 +221,7 @@
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
         </div><!-- Row End -->
-        <h2 style="padding-top:20px;"><span>Latest Offers</span></h2>
+   <!--      <h2 style="padding-top:20px;"><span>Latest Offers</span></h2>
 
         <div class="row">
             <div class="col-md-6">
@@ -247,7 +247,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <!-- Flight Only -->
@@ -534,7 +534,7 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="">
             <ul class="nav col-md-4 justify-content-start">
                 <li class="nav-item"><a href="privacy.php" class="nav-link px-2 text-muted">Privacy Policy</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="about.php" class="nav-link px-2 text-muted">About Us</a></li>
             </ul>
             <!-- logo start -->
             <ul class="nav">

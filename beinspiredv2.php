@@ -95,7 +95,9 @@
 <body>
 
     <!-- The video -->
-  
+    <video autoplay muted loop id="myVideo">
+        <source src="images/cover.mp4" type="video/mp4">
+    </video>
 
 
   <!-- socials top right start -->
@@ -113,14 +115,14 @@
         </ul>
     </div>
     </ul><!-- centred logo end -->
-    
-        <!-- Navbar start
-        <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25px;">
+    <div class="d-lg-none">
+        <!-- Navbar start -->
+        <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
             <nav class="navbar navbar-expand-lg" style="padding-top:;">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation" >
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarContent">
@@ -144,12 +146,13 @@
                     </div>
                 </div>
             </nav>
-        </ul> navbar end -->
-    
+        </ul><!-- navbar end -->
+    </div>
     <div class="container">
-        <!-- Constainer Start --><div class="row" style="padding-top:35px;">
+        <!-- Constainer Start -->
+       <!--  <div class="row" style="padding-top:35%;">
             <!-- Row Start -->
-            <div class="col-md-4" style="padding-top:5px;">
+            <div class="col-md-3" style="padding-top:5px;">
                 <!-- Col 4 Start -->
                 <div class="card text-center">
                     <!-- Card Start -->
@@ -160,17 +163,17 @@
                         <!-- Card Body Start -->
                         <h5 class="card-title">
                             <!-- Card Tile Start -->
-                            About Us
+                            Flight Time
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                         Learn more about the people behind Your Travel Companion
+                            See destinations in flight time from the UK to get your travel buds flying
                         </p><!-- Card Text End -->
-                        <a href="about.php" class="btn btn-primary">Find out about us</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Flight Times</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-4" style="padding-top:5px;">
+            <div class="col-md-3" style="padding-top:5px;">
                 <!-- Col 4 Start -->
                 <div class="card text-center">
                     <!-- Card Start -->
@@ -181,17 +184,17 @@
                         <!-- Card Body Start -->
                         <h5 class="card-title">
                             <!-- Card Tile Start -->
-                            Be Inspired
+                            Holiday Style
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                         Ignite your wanderlust and take youself on a adventure of a lifetime.
+                            Beach, Adventours or anything else. We have you covered
                         </p><!-- Card Text End -->
-                        <a href="beinspired.php" class="btn btn-primary">Get Inspired</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">Large modal</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
-            <div class="col-md-4" style="padding-top:5px;">
+            <div class="col-md-3" style="padding-top:5px;">
                 <!-- Col 4 Start -->
                 <div class="card text-center">
                     <!-- Card Start -->
@@ -202,16 +205,37 @@
                         <!-- Card Body Start -->
                         <h5 class="card-title">
                             <!-- Card Tile Start -->
-                            Get a Quote
+                            Party size
                         </h5><!-- Card Title end -->
                         <p class="card-text">
                             <!-- Card Text Start -->
-                            Research done, now get booking your next adventure!
+                            Solo, couples, families, any size be inspired to find your next holiday
                         </p><!-- Card Text End -->
-                        <a href="getaquote.php" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Large modal</button>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
-            </div><!--Col 4 End -->
+            </div><!-- Col 4 End -->
+            <div class="col-md-3" style="padding-top:5px;">
+                <!-- Col 4 Start -->
+                <div class="card text-center">
+                    <!-- Card Start -->
+                    <div class="card-header">
+                        <i class="fa-solid fa-plane-arrival fa-2xl" style="color: #d5bf77;"></i>
+                    </div>
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <h5 class="card-title">
+                            <!-- Card Tile Start -->
+                            Our Wishlist
+                        </h5><!-- Card Title end -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                            Look at our personal wishlist destinations!
+                        </p><!-- Card Text End -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg4">Large modal</button>
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 4 End -->
         </div><!-- Row End -->
         <h2 style="padding-top:20px;"><span>Our Top Picks</span></h2>
 
@@ -222,7 +246,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Maldives</h5>
                         <p class="card-text">Step into a paradise of crystal-clear waters and pristine beaches in the Maldives, where luxurious overwater bungalows and vibrant marine life await.</p>
-                        <!-- <a href="#" class="link-primary" style="display: flex;justify-content: end;">Read More</a> -->
+                        <a href="#" class="link-primary" style="display: flex;justify-content: end;">Read More</a>
 
                     </div>
                 </div>
@@ -233,7 +257,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Mexico</h5>
                         <p class="card-text">Experience the colorful culture, ancient ruins, and mouth-watering cuisine of Mexico, where every corner is a fiesta for the senses</p>
-                        
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -245,7 +269,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Jamacia</h5>
                         <p class="card-text">Discover sun, sand, and spice, laid-back island vibes with reggae</p>
-                        
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +279,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Bordeaux</h5>
                         <p class="card-text">Indulge in world-renowned wines and rich history, every sip tells a story</p>
-                        
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -265,7 +289,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Sydney</h5>
                         <p class="card-text">Vibrant city with a perfect blend of sun and sand</p>
-                        
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -275,7 +299,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Luxembourg</h5>
                         <p class="card-text">Fairytale charm, castles, picturesque countryside with city living</p>
-                        
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -379,8 +403,9 @@
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
         style="">
         <ul class="nav col-md-4 justify-content-start">
-            <li class="nav-item"><a href="privacy.php" class="nav-link px-2 text-muted">Privacy Policy</a></li>
-            <li class="nav-item"><a href="about.php" class="nav-link px-2 text-muted">About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">T&Cs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
         </ul>
         <!-- logo start -->
         <ul class="nav">
