@@ -124,26 +124,21 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="beinspired.php"
+                                <a class="nav-link" href="about.php"
                                     style="padding-right: 100px; color: #d5bf77;">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
                                     Be Inspired
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="book.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Make a Booking
+                                <a class="nav-link" href="getaquote.php" style="padding-right: 100px; color: #d5bf77;">
+                                    Get a Quote
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="predeparture.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Already Booked
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="returnhome.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Already Booked
-                                </a>
-                            </li>
+                            </li><!-- 
                             <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
                     {
                     ?>
@@ -170,7 +165,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="login.php" style="color: #d5bf77;">Log In</a>
                             </li>
-                            <?php } ?>
+                            <?php } ?> -->
                         </ul>
                     </div>
                 </div>
@@ -198,7 +193,7 @@
                             <!-- Card Text Start -->
                          Learn more about the people behind Your Travel Companion
                         </p><!-- Card Text End -->
-                        <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
+                        <a href="beinspired.php" class="btn btn-primary">Find out about us</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->
@@ -219,7 +214,7 @@
                             <!-- Card Text Start -->
                          Ignite your wanderlust and take youself on a adventure of a lifetime.
                         </p><!-- Card Text End -->
-                        <a href="beinspired.php" class="btn btn-primary">Go somewhere</a>
+                        <a href="beinspired.php" class="btn btn-primary">Get Inspired</a>
                     </div><!-- Card Body End -->
                 </div><!-- Card End -->
             </div><!-- Col 4 End -->

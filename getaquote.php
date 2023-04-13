@@ -129,53 +129,20 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav" style="border-top: 1px solid #d5bf77; border-bottom: 1px solid #d5bf77;">
                             <li class="nav-item">
-                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Be Inspired
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="book.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Make a Booking
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="predeparture.php"
+                                <a class="nav-link" href="about.php"
                                     style="padding-right: 100px; color: #d5bf77;">
-                                    Already Booked
+                                    About Us
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="returnhome.php" style="padding-right: 100px; color: #d5bf77;">
-                                    Already Booked
+                                <a class="nav-link" href="beinspired.php" style="padding-right: 100px; color: #d5bf77;">
+                                Get Inspired
                                 </a>
                             </li>
-                            <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
-                    {
-                    ?>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?></span>
+                            <li class="nav-item">
+                                <a class="nav-link" href="getaquote.php" style="padding-right: 100px; color: #d5bf77;">
+                                    Get a Quote
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Current Listings</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
-                                </ul>
-                            </li>
-                            <?php }else{ ?>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="registration.php"
-                                    style="padding-right: 100px; color: #d5bf77;">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.php" style="color: #d5bf77;">Log In</a>
-                            </li>
-                            <?php } ?>
                         </ul>
                     </div>
                 </div>
