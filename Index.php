@@ -101,7 +101,7 @@
 
     <!-- The video -->
     <video autoplay muted loop id="myVideo">
-        <source src="images/cover.mp4" type="video/mp4">
+        <source src="images/cover2.mp4" type="video/mp4">
     </video>
 
     <?php
