@@ -111,6 +111,7 @@
         </ul>
     </div>
     </ul><!-- centred logo end -->
+
     <div class="d-lg-none">
         <!-- Navbar start -->
         <ul class="nav justify-content-center" style="postion: relative; z-index: 1; padding-top: 25%;">
@@ -240,6 +241,98 @@
                 </div><!-- Card End -->
             </div><!--Col 4 End -->
         </div><!-- Row End -->
+
+        <h2 style="padding-top:10px;"><span>Why Use Us</span></h2>
+        <div class="row" style="padding-top:5px;">
+            <!-- Row Start -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fa-solid fa-person fa-5x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Personal consultant</h5>
+                                You will always speak to the same person
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fa-solid fa-earth-europe fa-4x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Worldwide</h5>
+                                No destination is to far, We work gloablly
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fa-solid fa-clock fa-4x" style="color: black;"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h5>Save Time</h5>
+                                Let us do the hard work for you
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+            <div class="col-md-3">
+                <!-- Col 3 Start -->
+                <div class="card" style="border: none;">
+                    <!-- Card Start -->
+                    <div class="card-body">
+                        <!-- Card Body Start -->
+                        <p class="card-text">
+                            <!-- Card Text Start -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="images/atol.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-9">
+                                <h5>ATOL</h5>
+                                Full protected when booking with us
+                            </div>
+                        </div>
+                        </p><!-- Card Text End -->
+                    </div><!-- Card Body End -->
+                </div><!-- Card End -->
+            </div><!-- Col 3 End -->
+        </div><!-- Row End -->
+ 
+   
+
         <h2 style="padding-top:10px;"><span>The Team</span></h2>
         <div class="row">
             <div class="col-md-6">
