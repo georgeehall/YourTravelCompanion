@@ -29,6 +29,7 @@ $infants = $_POST['infants'];
 $rooms = $_POST['rooms'];
 $car_hire = $_POST['car_hire'];
 $transfers = $_POST['transfers'];
+$total_budget = $_POST['total_budget'];
 $message = $_POST['message'];
 
 // Escape special characters to prevent SQL injection
@@ -48,12 +49,13 @@ $infants = mysqli_real_escape_string($connection, $infants);
 $rooms = mysqli_real_escape_string($connection, $rooms);
 $car_hire = mysqli_real_escape_string($connection, $car_hire);
 $transfers = mysqli_real_escape_string($connection, $transfers);
+$total_budget =mysqli_real_escape_string($connection, $total_budget);
 $message = mysqli_real_escape_string($connection, $message);
 
 // Construct the SQL query
 // Construct the SQL query
-$sql = "INSERT INTO package_quotes (name, email, phone, destination, preferred_hotel, board_basis, preferred_airline, outbound_date, return_date, travel_class, adults, children, infants, rooms, car_hire, transfers, message)
-        VALUES ('$name', '$email', '$phone', '$destination', '$preferred_hotel', '$board_basis', '$preferred_airline', '$outbound_date', '$return_date', '$travel_class', '$adults', '$children', '$infants', '$rooms', '$car_hire', '$transfers', '$message')";
+$sql = "INSERT INTO package_quotes (name, email, phone, destination, preferred_hotel, board_basis, preferred_airline, outbound_date, return_date, travel_class, adults, children, infants, rooms, car_hire, transfers, total_budget, message)
+        VALUES ('$name', '$email', '$phone', '$destination', '$preferred_hotel', '$board_basis', '$preferred_airline', '$outbound_date', '$return_date', '$travel_class', '$adults', '$children', '$infants', '$rooms', '$car_hire', '$transfers', '$total_budget', '$message')";
 
 
 // Execute the query and check if it was successful

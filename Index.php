@@ -106,7 +106,7 @@
 
     <?php
 if (isset($_GET["thankyou"]) && $_GET["thankyou"] == "true") {
-  echo "<div class='alert alert-success text-center' role='alert' style='background-color: #d5bf77; color: #325c8c; border: solid 0px;'>Thank you for your request!</div>";
+  echo "<div class='alert alert-success text-center' role='alert' style='background-color: #d5bf77; color: #325c8c; border: solid 0px;'>Thank you for your request! We will respond within 24 hours.</div>";
 }
 ?>
 

@@ -520,6 +520,11 @@
                                     <option value="no">No</option>
                                 </select>
                             </div>
+
+                            <div class="mb-3">
+                                <label for="total_budget" class="form-label">Total Budget</label>
+                                <input type="text" class="form-control" id="total_budget" name="total_budget">
+                            </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Additional information</label>
                                 <textarea class="form-control" id="message" name="message" rows="3" placeholder="Add here if you have any special requests or preferred room types, anything that can make your holiday better. Is it special occassion tell us!"></textarea>
