@@ -41,17 +41,18 @@ $infants = mysqli_real_escape_string($connection, $infants);
 $message = mysqli_real_escape_string($connection, $message);
 
 // Construct the SQL query
-// Construct the SQL query
 $sql = "INSERT INTO flight_quotes (name, email, phone, destination, preferred_airline, outbound_date, return_date, travel_class, adults, children, infants, message)
         VALUES ('$name', '$email', '$phone', '$destination', '$preferred_airline', '$outbound_date', '$return_date', '$travel_class', '$adults', '$children', '$infants', '$message')";
 
 
 // Execute the query and check if it was successful
 if (mysqli_query($connection, $sql)) {
-  echo "Quote submitted successfully!";
+  header("Location: index.php?thankyou=true");
+  exit();
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($connection);
 }
+
 
 // Step 3: Close the database connection
 mysqli_close($connection);

@@ -58,10 +58,12 @@ $sql = "INSERT INTO package_quotes (name, email, phone, destination, preferred_h
 
 // Execute the query and check if it was successful
 if (mysqli_query($connection, $sql)) {
-  echo "Quote submitted successfully!";
+  header("Location: index.php?thankyou=true");
+  exit();
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($connection);
 }
+
 
 // Step 3: Close the database connection
 mysqli_close($connection);

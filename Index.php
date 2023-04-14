@@ -6,6 +6,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQ4FLMNE0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQ4FLMNE0V');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Your Travel Companion</title>
@@ -94,6 +103,13 @@
     <video autoplay muted loop id="myVideo">
         <source src="images/cover.mp4" type="video/mp4">
     </video>
+
+    <?php
+if (isset($_GET["thankyou"]) && $_GET["thankyou"] == "true") {
+  echo "<div class='alert alert-success text-center' role='alert' style='background-color: #d5bf77; color: #325c8c; border: solid 0px;'>Thank you for your request!</div>";
+}
+?>
+
 
 
     <!-- socials top right start -->
